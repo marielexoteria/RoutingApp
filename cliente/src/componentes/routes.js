@@ -53,6 +53,7 @@ export const makeMainRoutes = () => {
                     return (
                         <SingleProducto
                             producto={this.state.productos[idProducto]}
+                            key={idProducto}
                             auth={auth} {...props}
                         />
                     );
